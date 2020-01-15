@@ -6,12 +6,11 @@
 # This program takes in an image from the user's file system, and then
 # generates an image comprised of ASCII characters. The resulting image
 # will be displayed in the program window, as well as saved as a .txt
-# file in the same directory that it was executed. By default, the image
-# is output as a "negative", where as the ASCII characters form the image's
-# highlights.
+# file in the same directory that it was executed.
 # 
-# To output the inverse of this, simply comment out line in the 'optimizeImage'
-# function containing "optimizedImg = ImageChops.invert(optimizedImg)"
+# By default, the image is output as a "negative", where as the ASCII
+# characters form the image's highlights. To output the inverse of this,
+# simply comment out line 6 in 'optimize.py'
 # 
 ###################################################################################
 
