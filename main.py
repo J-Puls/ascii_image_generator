@@ -118,7 +118,7 @@ def startGUI():
 
     # window properties
     r.title('ASCII Image Generator')
-    r.geometry("1280x720")
+    r.geometry(str(r.winfo_screenwidth()) + "x" + str(r.winfo_screenheight()))
     r.state("zoomed")
     r.resizable(1, 1)
 
