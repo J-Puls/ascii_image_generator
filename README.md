@@ -2,4 +2,5 @@
 A program that converts standard images into ASCII
 
 # Usage
-To run this program, simply navigate to the containing directory in the terminal, and run the "main.py" file.
+  1. Open `ascii_image_generator_env` in the terminal and run the appropriate file to activate the python environment for your system
+  2. Run the `main.py` file
